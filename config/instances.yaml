@@ -1,8 +1,7 @@
 ---
 virtualmachines:
   - name: "rhel"
-    image: "docker://quay.io/myee/satellite:latest"
-    image_type: registry
+    image: "satellite-server-rhdp-6-17-06-13-25"
     packages: []
     memory: "32G"
     cores: 1

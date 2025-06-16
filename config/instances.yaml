@@ -1,0 +1,13 @@
+---
+virtualmachines:
+  - name: "rhel"
+    image: "quay.io/myee/satellite:latest"
+    packages:
+    memory: "32G"
+    cores: 1
+    image_size: "500G"
+    tags:
+      - key: "AnsibleGroup"
+        value: "bastions"
+    networks:
+      - default

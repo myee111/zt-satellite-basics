@@ -1,0 +1,26 @@
+---
+antora:
+  name: modules
+  dir: www
+  modules:
+    - name: "01-install"
+      label: "Install"
+      solveButton: false
+    - name: "02-inspect"
+      label: "Inspect"
+      solveButton: false
+    - name: "03-generate-selinux-policy"
+      label: "Generate Selinux Policy"
+      solveButton: false
+    - name: "04-verify"
+      label: "Verify"
+      solveButton: false
+    - name: "05-reinspect"
+      label: "Reinspect"
+      solveButton: false
+
+tabs:
+  - name: ">_ terminal"
+    url: /wetty
+    secondary_name: "Second terminal"
+    secondary_url: /wetty

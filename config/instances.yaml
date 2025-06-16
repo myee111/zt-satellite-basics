@@ -1,6 +1,6 @@
 ---
 virtualmachines:
-  - name: "rhel"
+  - name: "satellite"
     image: "satellite-server-rhdp-6-17-06-13-25"
     bootloader: efi
     packages: []

@@ -3,6 +3,7 @@ virtualmachines:
   - name: "satellite"
     image: "satellite-server-rhdp-6-17-06-13-25"
     bootloader: efi
+    register_satellite: false
     packages: []
     memory: "32G"
     cores: 4
@@ -69,6 +70,7 @@ virtualmachines:
   - name: "rhel1"
     image: "rhel-10-0-06-17-25-2"
     bootloader: efi
+    register_satellite: false
     memory: "2G"
     cores: 1
     image_size: "40G"
@@ -80,6 +82,7 @@ virtualmachines:
   - name: "rhel2"
     image: "rhel-10-0-06-17-25-2"
     bootloader: efi
+    register_satellite: false
     memory: "2G"
     cores: 1
     image_size: "40G"

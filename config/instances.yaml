@@ -5,7 +5,7 @@ virtualmachines:
     bootloader: efi
     packages: []
     memory: "32G"
-    cores: 1
+    cores: 4
     image_size: "540G"
     tags:
       - key: "AnsibleGroup"

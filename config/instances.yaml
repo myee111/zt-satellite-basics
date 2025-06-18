@@ -66,3 +66,23 @@ virtualmachines:
           T80+iomU6lMVM7belMf0tl0loa/D+vjd0jfGnip+4ewbEr+dj9TAzfsCBidLrl4a
           +WTV/ogDLLZX8gj6kg==
           -----END CERTIFICATE-----
+  - name: "rhel1"
+    image: "rhel-10-0-06-17-25-2"
+    memory: "2G"
+    cores: 1
+    image_size: "40G"
+    tags:
+      - key: "AnsibleGroup"
+        value: "isolated"
+    networks:
+      - default
+  - name: "rhel2"
+    image: "rhel-10-0-06-17-25-2"
+    memory: "2G"
+    cores: 1
+    image_size: "40G"
+    tags:
+      - key: "AnsibleGroup"
+        value: "isolated"
+    networks:
+      - default

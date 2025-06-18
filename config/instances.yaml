@@ -68,6 +68,7 @@ virtualmachines:
           -----END CERTIFICATE-----
   - name: "rhel1"
     image: "rhel-10-0-06-17-25-2"
+    bootloader: efi
     memory: "2G"
     cores: 1
     image_size: "40G"
@@ -78,6 +79,7 @@ virtualmachines:
       - default
   - name: "rhel2"
     image: "rhel-10-0-06-17-25-2"
+    bootloader: efi
     memory: "2G"
     cores: 1
     image_size: "40G"

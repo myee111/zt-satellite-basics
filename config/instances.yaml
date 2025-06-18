@@ -71,9 +71,6 @@ virtualmachines:
     memory: "2G"
     cores: 1
     image_size: "40G"
-    tags:
-      - key: "AnsibleGroup"
-        value: "isolated"
     networks:
       - default
   - name: "rhel2"
@@ -81,8 +78,5 @@ virtualmachines:
     memory: "2G"
     cores: 1
     image_size: "40G"
-    tags:
-      - key: "AnsibleGroup"
-        value: "isolated"
     networks:
       - default

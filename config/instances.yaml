@@ -105,3 +105,4 @@ virtualmachines:
       fqdn: rhel2.lab
       hostname: rhel2
       prefer_fqdn_over_hostname: true
+      manage_etc_hosts: true

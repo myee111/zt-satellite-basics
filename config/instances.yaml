@@ -12,6 +12,11 @@ virtualmachines:
         value: "bastions"
     networks:
       - default
+    userdata: |
+      #cloud-config
+      fqdn: satellite.lab
+      hostname: satellite
+      prefer_fqdn_over_hostname: true
     services:
       - name: satellite-https
         ports:
@@ -78,6 +83,11 @@ virtualmachines:
         value: "nodes"
     networks:
       - default
+    userdata: |
+      #cloud-config
+      fqdn: rhel1.lab
+      hostname: rhel1
+      prefer_fqdn_over_hostname: true
   - name: "rhel2"
     image: "rhel-10-0-06-17-25-2"
     bootloader: efi
@@ -90,3 +100,8 @@ virtualmachines:
         value: "nodes"
     networks:
       - default
+    userdata: |
+      #cloud-config
+      fqdn: rhel2.lab
+      hostname: rhel2
+      prefer_fqdn_over_hostname: true
